@@ -6,6 +6,51 @@ body{
         "main main aside"
         "footer footer footer";
     grid-gap:15px;
-    max-width:80;
-    margin: 0-auto;
+    max-width:80%;
+    margin: 0 auto;
+    background-color:#E3F2FD;
+}
+header{
+    background-image: url(background.jpg);
+    grid-area:header;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:15px;
+}
+header nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    padding-top:30px;
+}
+
+h1{
+    text-align:center;
+}
+
+header nav a{
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+    font-weight:700;
+}
+header a:hover{
+    text-decoration:underline;
+    color:#424649;
+}
+
+
+footer{
+    grid-area:footer;
+}
+
+footer p{
+    text-align:center;
+
+}
+
+main{
+    grid-area:main;
+}
+aside{
+    grid-area:aside;
 }
