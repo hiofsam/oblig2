@@ -51,6 +51,9 @@ footer p{
 
 main{
     grid-area:main;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
 }
 aside{
     grid-area:aside;
@@ -65,4 +68,11 @@ aside a:hover{
     color:#11015e;
     text-decoration:underline;
 
+}
+img{
+    max-width: 100%;
+}
+
+h2{
+    text-align:center;
 }
