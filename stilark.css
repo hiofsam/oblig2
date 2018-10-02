@@ -41,6 +41,7 @@ header a:hover{
 
 footer{
     grid-area:footer;
+    background-color:#438ccc;
 }
 
 footer p{
@@ -53,4 +54,15 @@ main{
 }
 aside{
     grid-area:aside;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:5px;
+}
+aside a{
+    text-decoration:none;
+}
+aside a:hover{
+    color:#11015e;
+    text-decoration:underline;
+
 }
