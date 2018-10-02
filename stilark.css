@@ -1,0 +1,11 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "main main aside"
+        "footer footer footer";
+    grid-gap:15px;
+    max-width:80;
+    margin: 0-auto;
+}
