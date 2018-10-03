@@ -28,3 +28,10 @@ article p {
 h3{
     text-align:center;
 }
+
+article a{
+    display:flex;
+    flex-direction: column;
+    text-decoration:none;
+    text-align:center;
+}
