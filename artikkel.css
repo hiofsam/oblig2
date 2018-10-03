@@ -73,4 +73,6 @@ article p {
     max-width:70%;
     margin: 0 auto;
 }
-
+ figcaption{
+     text-align:center;
+ }
