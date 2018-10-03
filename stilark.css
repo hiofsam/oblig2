@@ -12,11 +12,15 @@ body{
 }
 header{
     background-image: url(background.jpg);
+    height:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
     grid-area:header;
     display:grid;
     grid-template-columns: 1fr 2fr;
     grid-gap:15px;
-    padding:15px;
+    padding:10px;
 }
 header nav {
     display: grid;
@@ -67,6 +71,11 @@ article {
     padding:10px;
 }
 
+article a:hover {
+    color:black;
+    background-color:#64B5F6;
+
+}
 aside{
     grid-area:aside;
     display:grid;
